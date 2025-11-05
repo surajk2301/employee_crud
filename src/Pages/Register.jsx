@@ -33,7 +33,7 @@ function Register() {
           navigate("/login");
         }
       })
-      .catch((error) => alert("Something went wrong"));
+      .catch(() => alert("Something went wrong"));
   };
 
   return (
