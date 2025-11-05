@@ -3,14 +3,14 @@ import "./App.css";
 import Dashboard from "./Pages/Dashboard";
 import EmployeeProfile from "./Pages/EmployeeProfile";
 import Login from "./Pages/Login";
-import Welcome from "./pages/Welcome";
 import Register from "./Pages/Register";
+import Welcome from "./Pages/Welcome";
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="https://jbk-mini-project.onrender.com/" element={<Welcome />}></Route>
+        <Route path="https://jbk-mini-project.onrender.com/" element={<Welcome/>}></Route>
         <Route path="https://jbk-mini-project.onrender.com/login" element={<Login/>}></Route>
         <Route path="https://jbk-mini-project.onrender.com/register" element={<Register/>}></Route>
 
