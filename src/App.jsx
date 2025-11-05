@@ -10,13 +10,13 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="https://jbk-mini-project.onrender.com/" element={<Welcome/>}></Route>
-        <Route path="https://jbk-mini-project.onrender.com/login" element={<Login/>}></Route>
-        <Route path="https://jbk-mini-project.onrender.com/register" element={<Register/>}></Route>
+        <Route path="/" element={<Welcome/>}></Route>
+        <Route path="/login" element={<Login/>}></Route>
+        <Route path="/register" element={<Register/>}></Route>
 
-        <Route path="https://jbk-mini-project.onrender.com/dashboard" element={<Dashboard/>}></Route>
+        <Route path="/dashboard" element={<Dashboard/>}></Route>
 
-        <Route path="https://jbk-mini-project.onrender.com/employee-profile/:id" element={<EmployeeProfile />}></Route>
+        <Route path="/employee-profile/:id" element={<EmployeeProfile />}></Route>
       </Routes>
     </>
   );
