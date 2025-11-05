@@ -30,7 +30,7 @@ function Register() {
       .then((response) => {
         if (response.data) {
           alert("Registration Successfully Completed!");
-          navigate("https://jbk-mini-project.onrender.com/login");
+          navigate("/login");
         }
       })
       .catch(() => alert("Something went wrong"));

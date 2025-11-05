@@ -28,7 +28,7 @@ function Login() {
       .then((response) => {
         if (response.data) {
           // nevigate to the dashboard
-          navigate("https://jbk-mini-project.onrender.com/dashboard");
+          navigate("/dashboard");
         } else {
           alert("Invalid Credentials");
         }

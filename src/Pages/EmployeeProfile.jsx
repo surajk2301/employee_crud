@@ -35,7 +35,7 @@ function EmployeeProfile() {
       .then((response) => {
         if (response.data) {
           alert("Updated!");
-          navigate('https://jbk-mini-project.onrender.com/dashboard')
+          navigate('/dashboard')
         }
       })
       .catch(() => alert("Something went wrong"));
