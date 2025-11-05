@@ -10,10 +10,10 @@ function Menu() {
 
       {/* Right side - Links */}
       <div className="space-x-4">
-        <Link to={'https://jbk-mini-project.onrender.com/login'}  className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all duration-200">
+        <Link to={'/login'}  className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition-all duration-200">
           Login
         </Link>
-        <Link to={'https://jbk-mini-project.onrender.com/register'} className="px-4 py-2 bg-green-600 hover:bg-green-700 rounded-lg transition-all duration-200">
+        <Link to={'/register'} className="px-4 py-2 bg-green-600 hover:bg-green-700 rounded-lg transition-all duration-200">
           Register
         </Link>
       </div>
